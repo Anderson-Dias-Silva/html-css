@@ -4,6 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário com e-mail</title>
+    <style>
+        * {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        h1 {
+            background-color: rgb(82, 0, 150);
+            color: rgb(255, 238, 3);
+            padding-left: 10px;
+            padding-bottom: 4px;
+            border-radius: 15px;
+        }
+
+        fieldset {
+            border-radius: 8px;
+            background-color: rgba(82, 0, 150, 0.11);
+            font-size: large;
+        }
+
+        legend {
+            font-size: large;
+            font-weight: bold
+        }
+
+        fieldset > p > input {
+            border-radius: 6px;
+        }
+
+        form > p > input {
+            background-color: rgba(255, 238, 0, 0.445);
+            border-radius: 6px;
+            color: rgb(82, 0, 150);
+            font-weight: bolder;
+            font-size: large;
+            width: 100px;
+        }
+
+    </style>
 </head>
 <body>
     <h1>Formulário com dados pessoais</h1>
@@ -18,16 +56,16 @@
                 <label for="iemail">E-MAIL: </label>
                 <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="exemplo@exemplo.com">
             </p>
-            <p><label for="itel">TELEFONE: </label>
+            <p>
+                <label for="itel">TELEFONE: </label>
                 <input type="tel" name="tel" id="itel" autocomplete="tel" required placeholder="(xx)xxxxx-xxxx" pattern="^\(\d{2}\)[0-9]{4,5}-[0-9]{4}$">
             </p>
             <!-- Estudar mais sobre RegEx -->
-
         </fieldset>
-            <p>
-                <input type="submit" value="ENVIAR">
-                <input type="submit" value="LIMPAR">
-            </p>
+        <p>
+            <input type="submit" value="ENVIAR">
+            <input type="submit" value="LIMPAR">
+        </p>
     </form>
 </body>
 </html>
