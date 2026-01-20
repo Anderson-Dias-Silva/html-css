@@ -7,7 +7,22 @@
 </head>
 <body>
     <h1>Formulário com Output</h1>
+    <h2>Formulário de Soma</h2>
     <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="in1">Insira o primeiro número: </label>
+            <input type="number" name="n1" id="in1" min="0" max="30" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+
+        <p>
+            <label for="in2">Insira o segundo número: </label>
+            <input type="number" name="n2" id="in2" min="0" max="30" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+
+        <p>
+            <label for="isoma">Soma Total: </label>
+            <output name="soma" id="isoma"></output>
+        </p>
 
         <p>
             <input type="submit" value="ENVIAR" id="enviar">
