@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores, Range e File</title>
+    <style>
+        * {
+            font-family: monospace;
+        }
+
+        h1 {
+            text-shadow: 1px 1px 1px black;
+            font-size: 21px;
+            margin-bottom: 3px;
+        }
+
+        hr {
+            margin-top: 3px;
+        }
+
+        fieldset {
+            padding: 10px;
+            margin-bottom: 12px;
+            border-radius: 8px;
+            box-shadow: 1px 1px 3px black;
+            background-color: rgb(253, 253, 253);
+        }
+
+        legend {
+            font-size: large;
+            background-color: rgb(233, 233, 233);
+            border-radius: 4px;
+            border: 1px solid black;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        label {
+            font-size: larger;
+        }
+
+        form > p > input {
+            width: 100px;
+            height: 23px;
+            font-size: large;
+            font-weight: bold;
+            border-radius: 4px;
+            border: 1px solid black;
+            box-shadow: 1px 1px 1px black;
+            color: black;
+            margin-left: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário com Cores, Range e File</h1>
+    <hr>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Escolha a Cor</legend>
+
+            <p>
+                <label for="icor">Cores: </label>
+                <input type="color" name="cor" id="icor" value="#000000">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Escolha o Nível de Satisfação</legend>
+
+            <p>
+                <label for="inivel">Nível de Satisfação: </label>
+                <input type="range" name="nivel" id="inivel" min="1" max="10">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Escolha um Arquivo para Enviar</legend>
+
+            <p>
+                <label for="ifoto">Foto de Perfil: </label>
+                <input type="file" name="foto" id="ifoto" >
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+        </p>
+    </form>
+</body>
+</html>
