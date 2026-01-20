@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: monospace;
+        }
+        
+        h1 {
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 8px;
+            box-shadow: 1px 1px 1px black;
+            background-color: rgb(233, 233, 233);
+        }
+
+        fieldset {
+            padding: 10px;
+            margin-bottom: 12px;
+            border-radius: 8px;
+            box-shadow: 1px 1px 2px black;
+            background-color: rgb(253, 253, 253);
+        }
+
+        label {
+            font-size: larger;
+        }
+
+        legend {
+            font-size: x-large;
+            background-color: rgb(233, 233, 233);
+            border-radius: 4px;
+            border: 1px solid black;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        form > p > input {
+            width: 100px;
+            font-size: large;
+            font-weight: bold;
+            border-radius: 4px;
+            border: 1px solid black;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        #enviar {
+            background-color: rgba(0, 196, 0, 0.212);
+        }
+
+        #limpar {
+            background-color: rgba(255, 166, 0, 0.24);
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulários com checkbox</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+
+            <input type="radio" name="sexo" id="isxmas" value="M">
+            <label for="isxmas">Masculino</label><br>
+
+            <input type="radio" name="sexo" id="isxfem" value="F">
+            <label for="isxfem">Feminino</label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+
+            <input type="checkbox" name="esbas" id="iesbas">
+            <label for="iesbas">Basquete</label><br>
+
+            <input type="checkbox" name="esfut" id="iesfut">
+            <label for="iesfut">Futebol</label><br>
+
+            <input type="checkbox" name="esnat" id="iesnat">
+            <label for="iesnat">Natação</label><br>
+
+            <input type="checkbox" name="esten" id="iesten">
+            <label for="iesten">Tênis</label><br>
+
+            <input type="checkbox" name="esvol" id="iesvol">
+            <label for="iesvol">Vôlei</label><br>
+
+            <input type="checkbox" name="eshan" id="ieshan">
+            <label for="ieshan">Handebol</label><br>
+
+            <input type="checkbox" name="escor" id="iescor">
+            <label for="iescor">Corrida</label><br>
+
+            <input type="checkbox" name="essur" id="iessur">
+            <label for="iessur">Surfe</label><br>
+
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar" id="enviar">
+            <input type="reset" value="Limpar" id="limpar">
+        </p>
+    </form>
+</body>
+</html>
