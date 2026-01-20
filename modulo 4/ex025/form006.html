@@ -11,12 +11,14 @@
 
         h1 {
             text-shadow: 1px 1px 1px black;
-            font-size: 21px;
+            font-size: 20px;
             margin-bottom: 3px;
+            text-align: center;
         }
 
         hr {
             margin-top: 3px;
+            margin-bottom: 10px;
         }
 
         fieldset {
@@ -39,6 +41,10 @@
             font-size: larger;
         }
 
+        #ifoto {
+            margin-top: 7px;
+        }
+
         form > p > input {
             width: 100px;
             height: 23px;
@@ -49,6 +55,10 @@
             box-shadow: 1px 1px 1px black;
             color: black;
             margin-left: 2px;
+        }
+
+        #enviar {
+            background-color: rgb(233, 233, 233);
         }
     </style>
 </head>
@@ -81,7 +91,7 @@
             </p>
         </fieldset>
         <p>
-            <input type="submit" value="ENVIAR">
+            <input type="submit" value="ENVIAR" id="enviar">
             <input type="reset" value="LIMPAR">
         </p>
     </form>
