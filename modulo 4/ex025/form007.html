@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: medium;
+        }
+
+        select {
+            border: 1px solid black;
+            box-shadow: 1px 1px 1px black;
+            border-radius: 4px;
+            height: 25px;
+        }
+
+        textarea {
+            border: 1px solid black;
+            box-shadow: 1px 1px 1px black;
+            border-radius: 4px;
+        }
+
+        #profissao {
+            border: 1px solid black;
+            box-shadow: 1px 1px 1px black;
+            border-radius: 4px;
+            height: 25px;
+        }
+
+        #enviar {
+            background-color: rgb(233, 233, 233);
+            width: 120px;
+            height: 25px;
+            font-weight: bold;
+            border-radius: 4px;
+            border: 1px solid black;
+            box-shadow: 1px 1px 1px black;
+            color: black;
+            margin-left: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Novo Formulário</h1>
+    <h2>Formulário com Select, Datalist e Textarea</h2>
+    <hr>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Estado: </label>
+            <select name="estado" id="iest">
+                <option value="" selected>---Escolha um estado---</option>
+
+                <!-- Norte -->
+                <optgroup label="Região Norte">
+                    <option value="AC">Acre</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="PA">Pará</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="TO">Tocantins</option>
+                </optgroup>
+
+                <!-- Nordeste -->
+                <optgroup label="Região Nordeste">
+                    <option value="AL">Alagoas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="SE">Sergipe</option>
+                </optgroup>
+
+                <!-- Centro-Oeste -->
+                <optgroup label="Região Centro-Oeste">
+                    <option value="DF">Distrito Federal</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                </optgroup>
+
+                <!-- Sudeste -->
+                <optgroup label="Região Sudeste">
+                    <option value="ES">Espírito Santo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+
+                <!-- Sul -->
+                <optgroup label="Região Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="profissao">Escolha sua profissão:</label>
+            <input list="profissoes" id="profissao" name="profissao" placeholder="Digite ou selecione...">
+
+            <datalist id="profissoes">
+                <option value="Especialista em Inteligência Artificial">
+                <option value="Engenheiro de Machine Learning">
+                <option value="Cientista de Dados">
+                <option value="Analista de Segurança Cibernética">
+                <option value="Desenvolvedor Full Stack">
+                <option value="Engenheiro de Dados">
+                <option value="Analista de Business Intelligence (BI)">
+                <option value="Especialista em Cloud Computing">
+                <option value="DevOps Engineer">
+                <option value="UX/UI Designer">
+                <option value="Analista de Marketing Digital">
+                <option value="Gerente de Produto (Product Manager)">
+                <option value="Especialista em SEO">
+                <option value="Gestor de Tráfego Pago">
+                <option value="Analista de Mídias Sociais">
+                <option value="Especialista em Sustentabilidade">
+                <option value="Engenheiro de Energias Renováveis">
+                <option value="Analista de Diversidade e Inclusão">
+                <option value="Especialista em Comércio Eletrônico (E-commerce)">
+                <option value="Desenvolvedor de Aplicativos Móveis">
+                <option value="Especialista em Automação de Processos">
+                <option value="Enfermeiro de Prática Avançada">
+                <option value="Analista de Dados de Saúde">
+                <option value="Psicólogo/Terapeuta Online">
+                <option value="Gerente de Projetos Ágeis">
+                <option value="Especialista em Privacidade de Dados (LGPD)">
+                <option value="Consultor de Transformação Digital">
+                <option value="Analista de RH (Recrutamento Tech)">
+                <option value="Editor de Vídeo/Conteúdo">
+                <option value="Assistente Virtual">
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem: </label><br>
+            <textarea name="msg" id="imsg" cols="40" rows="5"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="ENVIAR" id="enviar">
+            <input type="reset" value="LIMPAR" id="enviar">
+        </p>
+    </form>
+</body>
+</html>
