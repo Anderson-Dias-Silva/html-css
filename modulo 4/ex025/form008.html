@@ -4,6 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+        * {
+            font-family: monospace;
+        }
+
+        h1 {
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 8px;
+            box-shadow: 1px 1px 1px black;
+            background-color: rgb(229, 240, 255);
+            margin-bottom: 10px;
+        }
+
+        hr {
+            margin-top: 3px;
+            margin-bottom: 25px;
+        }
+
+        fieldset {
+            margin-bottom: 15px;
+        }
+
+        legend {
+            font-size: x-large;
+            background-color: rgb(233, 233, 233);
+            border-radius: 4px;
+            border: 1px solid black;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        label {
+            font-size: larger;
+        }
+
+        #enviar {
+            width: 100px;
+            height: 23px;
+            font-size: large;
+            font-weight: bold;
+            border-radius: 4px;
+            border: 1px solid black;
+            box-shadow: 1px 1px 1px black;
+            color: black;
+            margin-left: 2px;
+            background-color: rgb(229, 240, 255);
+        }
+
+        #limpar {
+            width: 100px;
+            height: 23px;
+            font-size: large;
+            font-weight: bold;
+            border-radius: 4px;
+            border: 1px solid black;
+            box-shadow: 1px 1px 1px black;
+            color: black;
+            margin-left: 2px;
+            background-color: ghostwhite;
+        }
+
+    </style>
 </head>
 <body>
     <h1>Formulários com Output</h1>
@@ -25,7 +87,7 @@
             </p>
             <p>
                 <input type="submit" value="ENVIAR" id="enviar">
-                <input type="reset" value="LIMPAR" id="enviar">
+                <input type="reset" value="LIMPAR" id="limpar">
             </p>
         </fieldset>
 
@@ -38,7 +100,7 @@
             </p>
             <p>
                 <input type="submit" value="ENVIAR" id="enviar">
-                <input type="reset" value="LIMPAR" id="enviar">
+                <input type="reset" value="LIMPAR" id="limpar">
             </p>
         </fieldset>
 
@@ -54,7 +116,7 @@
             </p>
             <p>
                 <input type="submit" value="ENVIAR" id="enviar">
-                <input type="reset" value="LIMPAR" id="enviar">
+                <input type="reset" value="LIMPAR" id="limpar">
             </p>
         </fieldset>
     </form>  
