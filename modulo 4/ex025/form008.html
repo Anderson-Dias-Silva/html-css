@@ -40,7 +40,7 @@
         }
 
         p {
-            padding: 5px;
+            padding: 5px 0px 5px 0px;
         }
 
         label {
@@ -56,7 +56,6 @@
             border: 1px solid black;
             box-shadow: 1px 1px 1px black;
             color: black;
-            margin-left: 2px;
             background-color: rgb(229, 240, 255);
         }
 
@@ -69,8 +68,19 @@
             border: 1px solid black;
             box-shadow: 1px 1px 1px black;
             color: black;
-            margin-left: 2px;
+            margin-left: 8px;
             background-color: ghostwhite;
+        }
+
+        #in1, #in2, #iano {
+            font-size: 14px;
+            color: black;
+        }
+
+        #isoma, #ival, #iidade {
+            font-size: 17px;
+            font-weight: bold;
+            color: black;
         }
 
     </style>
@@ -91,7 +101,7 @@
             </p>
             <p>
                 <label for="isoma">Soma Total: </label>
-                <output name="soma" id="isoma"></output>
+                <output name="soma" id="isoma">0</output>
             </p>
             <p>
                 <input type="submit" value="ENVIAR" id="enviar">
