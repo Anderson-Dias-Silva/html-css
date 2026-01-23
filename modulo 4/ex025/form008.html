@@ -43,8 +43,26 @@
         </fieldset>
 
         <fieldset>
-            <legend></legend>
+            <legend>Formulário de Calculo de Idade</legend>
+            <p>
+                <label for="iano">Digite o ano em que você nasceu: </label>
+                <input type="number" name="ano" id="iano" min="1900" max="2100" oninput="calcIdade()">
+            </p>
+            <p>
+                <label for="iidade">Sua idade neste ano será de: </label>
+                <output id="iidade">0</output>
+            </p>
+            <p>
+                <input type="submit" value="ENVIAR" id="enviar">
+                <input type="reset" value="LIMPAR" id="enviar">
+            </p>
         </fieldset>
-    </form>    
+    </form>  
+    <script>
+        function calcIdade() {
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>  
 </body>
 </html>
