@@ -22,5 +22,5 @@ article {
 }
 
 article::after {
-    content: 'Esse artigo foi impresso atraves do curso em vídeo';
+    content: 'Esse artigo foi impresso atraves de recursos de Media Query';
 }
