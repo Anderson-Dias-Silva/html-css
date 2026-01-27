@@ -32,6 +32,7 @@ main {
 h1 {
     text-align: center;
     color: rgb(218, 238, 255);
+    color: aliceblue;
     text-shadow: 2px 2px 2px black;
     font-size: 2em;
 }
