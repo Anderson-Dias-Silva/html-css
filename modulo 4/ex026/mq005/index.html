@@ -10,8 +10,8 @@
 <body>
     <header>
         <h1>Meu Site</h1>
-        <span id="burguer" class="material-symbols-outlined" onclick="">menu</span>
-        <menu>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Principal</a></li>
@@ -43,5 +43,15 @@
             <p>O estádio demorou 16 anos para ficar pronto e foi uma obra bem complexa. Aliás, sabia que o Morumbi não é o primeiro estádio do São Paulo? O primeiro, na verdade, foi o Velódromo de São Paulo ou Estádio da Floresta. E não, o São Paulo não construiu o Canindé (estádio da Portuguesa), apesar de ter sido dono do terreno por um período de tempo. </p>
         </article>
     </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
