@@ -39,11 +39,16 @@
         div#i1{
             order: 1;
             align-self: flex-end;
+
+            /* Propriedade de flex: grow => shrink => basis */
+            flex: 1 1 60px;
         }
 
         div#i2{
             order: 2;
             align-self: center;
+
+            flex: none;
         }
 
         div#i3{
@@ -57,11 +62,15 @@
         div#i4{
             order: 0;
             align-self: center;
+
+            flex: initial;
         }
 
         div#i5{
             order: 3;
             align-self: stretch;
+
+            flex: none;
         }
 
         div#i6{
