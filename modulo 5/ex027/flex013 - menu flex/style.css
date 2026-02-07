@@ -36,7 +36,7 @@ header > nav {
 }
 
 header > nav > a {
-   background-color: rgb(137, 137, 252); 
+   background-color: rgb(103, 103, 168); 
    color: white;
    padding: 10px;
    margin: 5px;
@@ -47,7 +47,7 @@ header > nav > a {
 
 header > nav > a:hover {
     background-color: white;
-    color: rgb(137, 137, 252);
+    color: rgb(103, 103, 168);
     transition: background-color .6s;
 }
 
