@@ -44,6 +44,7 @@ header > nav > a {
    border-radius: 5px;
    text-decoration: none;
    text-align: center;
+   box-shadow: 2px 2px 3px rgb(174, 174, 221);
 }
 
 header > nav > a:hover {
