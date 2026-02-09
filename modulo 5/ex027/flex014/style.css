@@ -12,9 +12,15 @@ body {
     line-height: 1.5em;
 }
 
-p, h1, h2 {
+p {
     margin-bottom: 10px;
     text-align: justify;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    text-align: left;
 }
 
 header, section.normal {
@@ -42,9 +48,21 @@ article.media-text {
 }
 
 article > div.text {
-    flex: 1 1 500px;
+    flex: 1 1 400px;
 }
 
 article > div.media {
     flex: 1 0 400px;
+}
+
+div.media > img {
+    display: block;
+    margin: auto;
+    padding: 5px 10px;
+}
+
+div.media > iframe {
+    display: block;
+    margin: auto;
+    padding: 5px 0px;
 }
