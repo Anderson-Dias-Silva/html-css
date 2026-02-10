@@ -30,6 +30,8 @@ header, section.normal {
 section.flex-content {
     padding: 10px;
     background-color: rgba(68, 35, 25, 0.301);
+    box-shadow: 1px 1px 3px black;
+    border-radius: 10px;
 
     display: flex;
     flex-flow: column nowrap;
@@ -65,4 +67,11 @@ div.media > iframe {
     display: block;
     margin: auto;
     padding: 5px 0px;
+}
+
+footer > p {
+    background-color: rgba(68, 35, 25, 0.301);
+    text-align: center;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 10px;
 }
