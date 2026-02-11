@@ -17,7 +17,6 @@ main {
     margin: auto;
 }
 
-
 p {
     margin-bottom: 10px;
     text-align: justify;
@@ -92,6 +91,10 @@ div.media > iframe {
     display: block;
     padding: 5px 5px;
     margin: auto;
+}
+
+a {
+    color: black;
 }
 
 footer > p {
