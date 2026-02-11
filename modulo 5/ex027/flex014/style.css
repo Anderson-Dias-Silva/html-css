@@ -58,15 +58,13 @@ article > div.media {
 
 div.media > img {
     display: block;
-    margin: auto;
-    padding: 5px 10px;
-    width: 390px;
+    padding: 5px;
+    width: 395px;
 }
 
 div.media > iframe {
     display: block;
-    margin: auto;
-    padding: 5px 0px;
+    padding: 5px 5px;
 }
 
 footer > p {
