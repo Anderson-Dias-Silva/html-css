@@ -84,12 +84,14 @@ article > div.media {
 div.media > img {
     display: block;
     padding: 5px;
-    width: 395px;
+    width: 385px;
+    margin: auto;
 }
 
 div.media > iframe {
     display: block;
     padding: 5px 5px;
+    margin: auto;
 }
 
 footer > p {
