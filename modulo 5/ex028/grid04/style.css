@@ -3,6 +3,7 @@
 * {
     font-family: monospace;
     font-size: 1.2em;
+    
 }
 
 .container {
@@ -21,7 +22,7 @@
     background-color: blueviolet;
     color: white;
     text-align: center;
-    
+    border-radius: 5px;
     font-weight: bold;
     align-content: center;
     border: 2px solid black;
@@ -36,7 +37,7 @@
     background-color: forestgreen;
     color: white;
     text-align: center;
-    
+    border-radius: 5px;
     font-weight: bold;
     align-content: center;
     border: 2px solid black;
@@ -51,7 +52,7 @@
     background-color: yellow;
     color: black;
     text-align: center;
-    
+    border-radius: 5px;
     font-weight: bold;
     align-content: center;
     border: 2px solid black;
@@ -66,7 +67,7 @@
     background-color: aqua;
     color: black;
     text-align: center;
-    
+    border-radius: 5px;
     font-weight: bold;
     align-content: center;
     border: 2px solid black;
@@ -81,7 +82,7 @@
     background-color: orange;
     color: black;
     text-align: center;
-    
+    border-radius: 5px;
     font-weight: bold;
     align-content: center;
     border: 2px solid black;
@@ -96,7 +97,7 @@
     background-color: lightslategrey;
     color: black;
     text-align: center;
-    
+    border-radius: 5px;
     font-weight: bold;
     align-content: center;
     border: 2px solid black;
@@ -111,7 +112,7 @@
     background-color: darkblue;
     color: white;
     text-align: center;
-    
+    border-radius: 5px;
     font-weight: bold;
     align-content: center;
     border: 2px solid black;
@@ -126,7 +127,7 @@
     background-color: burlywood;
     color: black;
     text-align: center;
-    
+    border-radius: 5px;
     font-weight: bold;
     align-content: center;
     border: 2px solid black;
@@ -141,7 +142,7 @@
     background-color: red;
     color: white;
     text-align: center;
-    
+    border-radius: 5px;
     font-weight: bold;
     align-content: center;
     border: 2px solid black;
