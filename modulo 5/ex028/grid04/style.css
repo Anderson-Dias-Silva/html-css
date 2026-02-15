@@ -1,8 +1,12 @@
 @charset "UTF-8";
 
+* {
+    font-family: monospace;
+}
+
 .container {
     display: grid;
-    grid-template-rows: repeat(3, 100px);
+    grid-template-rows: repeat(7, 100px);
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
@@ -16,9 +20,10 @@
     background-color: blueviolet;
     color: white;
     text-align: center;
-    font-size: xx-large;
+    font-size: 3em;
     font-weight: bold;
     align-content: center;
+    border: 2px solid black;
 }
 
 .caixa2 {
@@ -30,9 +35,10 @@
     background-color: forestgreen;
     color: white;
     text-align: center;
-    font-size: xx-large;
+    font-size: 3em;
     font-weight: bold;
     align-content: center;
+    border: 2px solid black;
 }
 
 .caixa3 {
@@ -44,7 +50,98 @@
     background-color: yellow;
     color: black;
     text-align: center;
-    font-size: xx-large;
+    font-size: 3em;
     font-weight: bold;
     align-content: center;
+    border: 2px solid black;
+}
+
+.caixa4 {
+    grid-row-start: 4;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    align-content: center;
+    border: 2px solid black;
+}
+
+.caixa5 {
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    background-color: orange;
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    align-content: center;
+    border: 2px solid black;
+}
+
+.caixa6 {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+    background-color: lightslategrey;
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    align-content: center;
+    border: 2px solid black;
+}
+
+.caixa7 {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    align-content: center;
+    border: 2px solid black;
+}
+
+.caixa8 {
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    align-content: center;
+    border: 2px solid black;
+}
+
+.caixa9 {
+    grid-row-start: 6;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    align-content: center;
+    border: 2px solid black;
 }
