@@ -7,6 +7,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* CORES
+    #6E6E6E (CINZA ESCURO)
+    #E2E2E2 (CINZA CLARO)
+    #002b00 (VERDE ESCURO)
+    #E06E00 (LARANJA ESCURO) */
+
+:root {
+    --CINZA-ESCURO: #6E6E6E;
+    --CINZA-CLARO: #E2E2E2;
+    --VERDE-ESCURO: #002b00;
+    --LARANJA-ESCURO: #E06E00;
+}
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -30,12 +43,14 @@ body > div > main > h2 {
 
 body > div > nav > a {
     text-decoration: none;
-    background-color: rgb(0, 43, 0);
+    background-color: var(--CINZA-ESCURO);
     color: white;
     padding: 9px;
     align-content: center;
     font-weight: bold;
-    border-top: 1px;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 4px;
+    box-shadow: 2px 1px 2px black;
 }
 
 #topo {
@@ -65,4 +80,9 @@ body > div > nav > a {
     grid-area: 4 / 1 / 5 / 3;
     text-align: center;
     font-weight: bold;
+    background-color: var(--CINZA-ESCURO);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+
+    border-radius: 5px 5px 0px 0px;
 }
