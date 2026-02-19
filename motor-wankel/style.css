@@ -28,6 +28,16 @@ body > div > main > h2 {
     text-align: center;
 }
 
+body > div > nav > a {
+    text-decoration: none;
+    background-color: rgb(0, 43, 0);
+    color: white;
+    padding: 9px;
+    align-content: center;
+    font-weight: bold;
+    border-top: 1px;
+}
+
 #topo {
     grid-area: 1 / 1 / 2 / 3;
 
