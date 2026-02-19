@@ -17,13 +17,10 @@
 }
 
 .caixa {
-    background-color: dodgerblue;
+    background-color: whitesmoke;
     border: 1px solid black;
-    color: white;
+    color: black;
     padding: 10px;
-    text-align: center;
-    align-content: center;
-    font-weight: bolder;
 }
 
 #topo {
@@ -44,4 +41,6 @@
 
 #rodape {
     grid-area: 4 / 1 / 5 / 3;
+    text-align: center;
+    font-weight: bold;
 }
