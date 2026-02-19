@@ -45,7 +45,6 @@ body > div > nav > a {
     background-color: var(--CINZA-ESCURO);
     color: white;
     padding: 8px;
-    align-content: center;
     font-weight: bold;
     text-shadow: 1px 1px 1px black;
     border-radius: 4px;
@@ -61,7 +60,7 @@ body > div > nav > a {
     color: white;
     text-shadow: 1px 2px 1px black;
     border-radius: 0px 0px 5px 5px;
-    box-shadow: 1px 1px 8px black;
+    box-shadow: 1px 1px 3px black;
 }
 
 #menu {
