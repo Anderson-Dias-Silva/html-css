@@ -41,20 +41,20 @@ body > div > main > h2 {
 
 body > div > nav > a {
     text-decoration: none;
-    background-color: var(--CINZA-CLARO);
-    color: black;
+    background-color: var(--LARANJA-ESCURO);
+    color: WHITE;
     padding: 8px;
     font-weight: bold;
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 1px 1px 1px BLACK;
     border-radius: 4px;
-    box-shadow: 2px 1px 2px black;
+    box-shadow: 1px 1px 2px white;
 }
 
 #topo {
     grid-area: 1 / 1 / 2 / 3;
 
     text-align: center;
-    background-color: var(--CINZA-ESCURO);
+    background-color: var(--VERDE-ESCURO);
     padding: 18px;
     color: white;
     text-shadow: 1px 2px 1px black;
@@ -65,7 +65,7 @@ body > div > nav > a {
 
     text-align: center;
     padding: 10px;
-    background-color: var(--CINZA-ESCURO);
+    background-color: var(--VERDE-ESCURO);
     border-radius: 0px 0px 5px 5px;
 }
 
@@ -85,7 +85,7 @@ body > div > nav > a {
     grid-area: 4 / 1 / 5 / 3;
     text-align: center;
     font-weight: bold;
-    background-color: var(--CINZA-ESCURO);
+    background-color: var(--VERDE-ESCURO);
     color: white;
     text-shadow: 1px 1px 1px black;
     padding: 10px;
