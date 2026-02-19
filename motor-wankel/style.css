@@ -25,9 +25,8 @@
     height: 100vh;
 
     display: grid;
-    grid-template-rows: 50px 40px 1fr 40px;
-    grid-template-columns: 1fr 100px;
-    gap: 5px;
+    grid-template-rows: 70px 40px 1fr 40px;
+    grid-template-columns: 1fr 260px;
 }
 
 .caixa {
@@ -42,11 +41,11 @@ body > div > main > h2 {
 
 body > div > nav > a {
     text-decoration: none;
-    background-color: var(--CINZA-ESCURO);
-    color: white;
+    background-color: var(--CINZA-CLARO);
+    color: black;
     padding: 8px;
     font-weight: bold;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px white;
     border-radius: 4px;
     box-shadow: 2px 1px 2px black;
 }
@@ -56,11 +55,9 @@ body > div > nav > a {
 
     text-align: center;
     background-color: var(--CINZA-ESCURO);
-    padding: 10px;
+    padding: 18px;
     color: white;
     text-shadow: 1px 2px 1px black;
-    border-radius: 0px 0px 5px 5px;
-    box-shadow: 1px 1px 3px black;
 }
 
 #menu {
@@ -68,7 +65,9 @@ body > div > nav > a {
 
     text-align: center;
     padding: 10px;
-    margin-top: 5px;
+    background-color: var(--CINZA-ESCURO);
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 1px 2px black;
 }
 
 #principal {
